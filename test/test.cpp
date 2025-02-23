@@ -1,6 +1,9 @@
 #define CATCH_CONFIG_MAIN 
 #include "catch2/catch.hpp"
-#include "movie.h"
+#include "car.h"
+#include "electricCar.h"
+#include "hybridCar.h"
+#include "gasolineCar.h"
 
 
 
