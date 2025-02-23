@@ -317,9 +317,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\kklev\source\repos\ECE3574\A4 Hybrid\src\electricCar.cpp" />
-    <ClCompile Include="C:\Users\kklev\source\repos\ECE3574\A4 Hybrid\src\hybridCar.cpp" />
-    <ClCompile Include="C:\Users\kklev\source\repos\ECE3574\A4 Hybrid\src\gasolineCar.cpp" />
     <ClCompile Include="C:\Users\kklev\source\repos\ECE3574\A4 Hybrid\test\test.cpp" />
   </ItemGroup>
   <ItemGroup>

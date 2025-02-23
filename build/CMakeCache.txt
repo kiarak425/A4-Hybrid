@@ -14,6 +14,15 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+A4Hybrid_BINARY_DIR:STATIC=C:/Users/kklev/source/repos/ECE3574/A4 Hybrid/build
+
+//Value Computed by CMake
+A4Hybrid_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+A4Hybrid_SOURCE_DIR:STATIC=C:/Users/kklev/source/repos/ECE3574/A4 Hybrid
+
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/lib.exe
 
@@ -77,7 +86,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/kklev/source/repos/ECE3574/A4 Hybrid/build/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Car
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/A4Hybrid
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/link.exe
@@ -112,7 +121,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Car
+CMAKE_PROJECT_NAME:STATIC=A4Hybrid
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=rc
@@ -184,15 +193,6 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
-
-//Value Computed by CMake
-Car_BINARY_DIR:STATIC=C:/Users/kklev/source/repos/ECE3574/A4 Hybrid/build
-
-//Value Computed by CMake
-Car_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Car_SOURCE_DIR:STATIC=C:/Users/kklev/source/repos/ECE3574/A4 Hybrid
 
 
 ########################

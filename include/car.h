@@ -3,13 +3,14 @@
 #define CAR_H
 
 #include <string>
-class car {
+class Car {
   public:
   virtual std::string Drive() = 0;
   virtual double FuelEfficiency() = 0;
   virtual std::string ChargeBattery() = 0;
   virtual std::string Refuel() = 0;
   virtual std::string SwitchMode() = 0;
+  virtual ~Car();
  }; 
 
 #endif
