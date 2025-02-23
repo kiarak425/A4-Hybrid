@@ -2,15 +2,15 @@
 #include "gasolineCar.h"
  //electricCar.cpp
 
-std::string gasolineCar::Drive() {
+std::string GasolineCar::Drive() {
     return "Drive GasolineCar";
 }
 
-double gasolineCar::FuelEfficiency() {
+double GasolineCar::FuelEfficiency() {
     return 10;
 }
 
-std::string gasolineCar::Refuel()
+std::string GasolineCar::Refuel()
 {
     return "Refuel GasolineCar";
 }

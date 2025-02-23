@@ -4,7 +4,7 @@
 
 #include "car.h"
 #include <string>
-class electricCar : public car {
+class ElectricCar : public Car {
   public:
   std::string Drive() override;
   double FuelEfficiency() override;

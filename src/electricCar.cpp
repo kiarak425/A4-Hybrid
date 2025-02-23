@@ -2,14 +2,14 @@
 #include "electricCar.h"
 //electricCar.cpp
 
-std::string electricCar::Drive() {
+std::string ElectricCar::Drive() {
   return "Drive ElectricCar";
 }
 
-double electricCar::FuelEfficiency() {
+double ElectricCar::FuelEfficiency() {
   return 10;
 }
 
-std::string electricCar::ChargeBattery() {
+std::string ElectricCar::ChargeBattery() {
   return "ChargeBattery ElectricCar";
 }

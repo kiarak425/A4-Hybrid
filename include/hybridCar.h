@@ -6,7 +6,7 @@
 #include "gasolineCar.h"
 
 #include <string>
-class hybridCar : public electricCar, public gasolineCar {
+class HybridCar : public ElectricCar, public GasolineCar {
   public:
   std::string Drive() override;
   double FuelEfficiency() override;

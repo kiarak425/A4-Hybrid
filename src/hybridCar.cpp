@@ -2,26 +2,26 @@
 #include "hybridCar.h"
 //electricCar.cpp
 
-std::string hybridCar::Drive() {
+std::string HybridCar::Drive() {
     return "Drive HybridCar";
 }
 
-double hybridCar::FuelEfficiency()
+double HybridCar::FuelEfficiency()
 {
     return 10;
 }
 
-std::string hybridCar::ChargeBattery()
+std::string HybridCar::ChargeBattery()
 {
     return "ChargeBattery HybridCar";
 }
 
-std::string hybridCar::Refuel()
+std::string HybridCar::Refuel()
 {
     return "Refuel HybridCar";
 }
 
-std::string hybridCar::SwitchMode()
+std::string HybridCar::SwitchMode()
 {
     return "SwitchMode hybridCar";
 }
