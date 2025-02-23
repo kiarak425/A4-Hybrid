@@ -4,9 +4,10 @@
 
 #include "electricCar.h"
 #include "gasolineCar.h"
+#include "car.h"
 
 #include <string>
-class HybridCar : public ElectricCar, public GasolineCar {
+class HybridCar : public ElectricCar, public GasolineCar, public Car {
   public:
   std::string Drive() override;
   double FuelEfficiency() override;
