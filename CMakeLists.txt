@@ -10,7 +10,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 add_executable(car src/main.cpp src/electricCar.cpp src/hybridCar.cpp src/gasolineCar.cpp)
 
 # Add the test executable
-add_executable(my_test src/main.cpp test/test.cpp)
+add_executable(my_test test/test.cpp)
 # Include directories for the test target
 target_include_directories(my_test PRIVATE ${PROJECT_SOURCE_DIR}/include)
 # Enable testing
