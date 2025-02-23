@@ -8,18 +8,18 @@
 
 
 
-TEST_CASE("Testing Creating a Movie", "[create]") {
+TEST_CASE("Testing hybrid", "[hybrid]") {
     
 
   
 }
 
-TEST_CASE("Testing Get Title", "[title]") {
+TEST_CASE("Testing electric", "[electric]") {
 
   
 }
 
-TEST_CASE("Testing Get Director", "[Director]") {
+TEST_CASE("Testing gasoline", "[gasoline]") {
 
   
 }
