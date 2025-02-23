@@ -3,14 +3,14 @@ cmake_minimum_required(VERSION 3.10)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # used internally by CMake to identify your project
-project(Movie)
+project(Car)
 # Include the directory headers are located
 include_directories(${CMAKE_SOURCE_DIR}/include)
 # Add the main executable
-add_executable(movie src/main.cpp src/movie.cpp)
+add_executable(car src/main.cpp src/electricCar.cpp src/hybridCar.cpp src/gasolineCar.cpp)
 
 # Add the test executable
-add_executable(my_test src/movie.cpp test/test.cpp)
+add_executable(my_test src/electricCar.cpp src/hybridCar.cpp src/gasolineCar.cpp test/test.cpp)
 # Include directories for the test target
 target_include_directories(my_test PRIVATE ${PROJECT_SOURCE_DIR}/include)
 # Enable testing
